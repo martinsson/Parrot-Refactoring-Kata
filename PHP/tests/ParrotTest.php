@@ -1,7 +1,9 @@
 <?php
 namespace Parrot;
 
-class ParrotTest extends \PHPUnit_Framework_TestCase {
+use PHPUnit\Framework\TestCase;
+
+class ParrotTest extends TestCase {
 
   /** @test */
   public function get_speed_of_european_parrot() {
